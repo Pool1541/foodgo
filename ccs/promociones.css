@@ -1,0 +1,109 @@
+
+.container__tittle {
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.container__tittle h1 {
+    font-family:'Gluten', 'cursive';
+    font-weight: 900;
+    color: var(--primario);
+    display: inline-block;
+}
+
+.container__tittle i{
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+    font-weight: 900;
+    color: var(--primario);
+    font-size: 35px;
+    border: 1px solid var(--primario);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+/* CARDS */
+
+.row {
+    padding: 0 50px;
+}
+
+.card {
+    border-radius: 20px;
+    height: 450px;
+    min-width: 300px;
+    max-width: 350px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 1px 1px 14px 6px rgba(0, 0, 0, 0.219);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card__top-text img {
+    position: absolute;
+    bottom: -100px;
+    right: 130px;
+}
+
+.card__top {
+    overflow: hidden;
+}
+
+.card__top-text {
+    position: relative;
+    background-color: var(--primario);
+    padding: 12px 15px 1px; 
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255, 254, 254, 0.877);
+    text-align: end;
+    z-index: 1;
+}
+
+.card__bottom {
+    height: 168px;
+    position: relative;
+    padding: 10px 30px;
+    z-index: 100;
+}
+
+.card__bottom-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.price p {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.price-past{
+    text-decoration: line-through;
+    color: red;
+}
+
+.cards__bottom-btn {
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards__bottom-btn button {
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    /* border: 1px solid var(--primario);
+    color: var(--subTitulos); */
+    border: none;
+    background-color: var(--primario);
+    color: white;
+    font-weight: 600;
+}
