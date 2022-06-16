@@ -72,6 +72,12 @@ body {
     background-color: rgba(77, 77, 77, 0.082);
 }
 
+.card > .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .card:hover {
     transform: scale(1.05);
 }
@@ -84,6 +90,10 @@ body {
 
 .img-fluid {
     margin-bottom: 10px;
+}
+
+.card-body > .btn-danger {
+    align-self: stretch;
 }
 
 /* NAVBAR */ 
